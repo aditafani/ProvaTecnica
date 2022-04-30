@@ -16,6 +16,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{!data ? "Loading..." : data}</p>
+        <input type='text' placeholder="Inserire ID"></input>
       </header>
     </div>
   );
