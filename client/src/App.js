@@ -10,7 +10,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => setData(data.message));
   }, []);
-
+  console.log(data)
   return (
     <div className="App">
       <header className="App-header">
