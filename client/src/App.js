@@ -14,9 +14,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p>
+        <p>Inserisci ID utente</p>
         <input type='text' placeholder="Inserire ID"></input>
+        <button type="subimt">LOGIN</button>
       </header>
     </div>
   );
